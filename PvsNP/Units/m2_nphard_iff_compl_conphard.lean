@@ -1,4 +1,6 @@
+import Mathlib
 import PvsNP.Defs
+import CookLevin
 
 /-- Taking the complement of both languages preserves the reduction function. -/
 theorem PvsNP.Units.m2_nphard_iff_compl_conphard :
